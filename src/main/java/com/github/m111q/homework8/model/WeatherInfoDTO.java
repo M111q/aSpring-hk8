@@ -138,17 +138,18 @@ public class WeatherInfoDTO {
     @Override
     public String toString() {
         return "WeatherInfoDTO{" +
-                "mainDescription='" + mainDescription + '\'' +
-                ", description='" + description + '\'' +
-                ", icon='" + iconURL + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
+                ", mainDescription='" + mainDescription + '\'' +
+                ", description='" + description + '\'' +
                 ", temp=" + temp +
                 ", feelsLike=" + feelsLike +
                 ", tempMin=" + tempMin +
                 ", tempMax=" + tempMax +
                 ", pressure=" + pressure +
                 ", humidity=" + humidity +
+                ", iconURL='" + iconURL + '\'' +
                 '}';
     }
 }
